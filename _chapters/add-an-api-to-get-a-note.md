@@ -63,7 +63,7 @@ If you switch over to your terminal, you will notice that your changes are being
 You’ll need to have `sst dev` running for this to happen. If you had previously stopped it, then running `npx sst dev` will deploy your changes again.
 {%endinfo%}
 
-You should see that the new API has been deployed.
+You should see that the new API has been deployed and given a random subdomain. It will follow the format: `https://<generated_subdomain>.execute-api.<aws_region>.amazonaws.com`
 
 ```bash
 +  Complete
@@ -74,10 +74,10 @@ You should see that the new API has been deployed.
 
 Let's test the get notes API. In the [previous chapter]({% link _chapters/add-an-api-to-get-a-note.md %}) we tested our create note API. It should've returned the new note's id as the `noteId`.
 
-{%change%} Run the following in your terminal.
+{%change%} Run the following in your terminal. Remember to replace the generated subdomain and region with the values generated earlier.
 
 ``` bash
-$ curl https://5bv7x0iuga.execute-api.us-east-1.amazonaws.com/notes/<NOTE_ID>
+$ curl https://<generated_subdomain>.execute-api.<aws_region>.amazonaws.com/notes/<NOTE_ID>
 ```
 
 Make sure to replace the endpoint URL with your `ApiEndpoint` value and the <NOTE_ID> at the end of the URL with the `noteId` that was created previously.
