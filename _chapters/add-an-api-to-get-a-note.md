@@ -63,7 +63,7 @@ If you switch over to your terminal, you will notice that your changes are being
 You’ll need to have `sst dev` running for this to happen. If you had previously stopped it, then running `npx sst dev` will deploy your changes again.
 {%endinfo%}
 
-You should see that the new API has been deployed and given a random subdomain. It will follow the format: `https://<generated_subdomain>.execute-api.<aws_region>.amazonaws.com`
+You should see that the new API has been deployed and given an AWS generated subdomain that looks something like `https://<generated_subdomain>.execute-api.<aws_region>.amazonaws.com`.
 
 ```bash
 +  Complete
