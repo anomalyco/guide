@@ -16,6 +16,8 @@ Once you've completed the guide, you are probably going to use SST for your next
 
 - [Learn React](https://react.dev/learn): The official React docs
 
+- [React Interview Preparation Path](https://frontendatlas.com/guides/framework-prep/react-prep-path): Structured React review and practice covering state, effects, hooks, performance, testing, and UI coding
+
 - [Vite docs](https://vitejs.dev/guide/): The official Vite docs
 
 - [React-Bootstrap Docs](https://react-bootstrap.github.io/docs/getting-started/introduction): The official React-Bootstrap docs
